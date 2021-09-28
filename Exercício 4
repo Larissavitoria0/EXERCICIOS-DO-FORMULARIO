@@ -1,0 +1,23 @@
+<script>
+    function programa() {
+        var numeros = Array ()
+        var valor1 = parseFloat(document.getElementById("valor1").value);
+        var valor2 = parseFloat(document.getElementById("valor2").value);
+        var valor3 = parseFloat(document.getElementById("valor3").value);
+        numeros.push(valor1) // adiciona o valor1 no array
+        numeros.push(valor2) // adiciona o valor2 no array
+        numeros.push(valor3) // adiciona o valor3 no array
+        numeros.sort() // coloca o array em ordem
+        soma = numeros[1] + numeros[2] // ja que o array esta em ordem os dois ultimos item dele sao respectivamente 1 e 2 
+          //isso porque comeca no indice 0
+        alert(soma) // alert da somo dos dois ultimos elementos  ( que seriam os maiores )
+      // como sao apenas 3 numeros montei dessa forma , agora voce monte a verificacao se eles sao iguais se nao conseguir votle aqui e diga em que tem duvida porque acho que n podemos fazer o codigo todo aqui 
+    }
+</script>
+<p><b>1º Valor:</b></p>
+<input id="valor1" type="text"/> </br>
+<p><b>2º Valor:</b></p>
+<input id="valor2" type="text"/> </br>
+<p><b>3º Valor:</b></p>
+<input id="valor3" type="text"/> <br><br>
+<button type="button" onclick="programa()"> Iniciar</button>

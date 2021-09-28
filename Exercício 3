@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
  <head>
-   <title>Curso JavaScript Progressivo</title>
+   <title>Exercicio 3</title>
    Primeira numero:<input id="numero1" type="number"> <br />
    Segundo  numero:<input id="numero2" type="number"> <br />
    Terceiro numero: <input id="numero3" type="number"> <br />

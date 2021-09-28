@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>Tabuada</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+
+        <script type="text/javascript">
+
+            var tabuada = function(num){
+
+                document.write(num," x 1 = ",num*1);
+                document.write("<br>");
+                document.write(num," x 2 = ",num*2);
+                document.write("<br>");
+                document.write(num," x 3 = ",num*3);
+                document.write("<br>");
+                document.write(num," x 4 = ",num*4);
+                document.write("<br>");
+                document.write(num," x 5 = ",num*5);
+                document.write("<br>");
+                document.write(num," x 6 = ",num*6);
+                document.write("<br>");
+                document.write(num," x 7 = ",num*7);
+                document.write("<br>");
+                document.write(num," x 8 = ",num*8);
+                document.write("<br>");
+                document.write(num," x 9 = ",num*9);
+                document.write("<br>");
+                document.write(num," x 10 = ",num*10);
+
+            }
+            var n1 = 5;
+
+            document.write("<h4>Tabuada do número 5.","</h4>.");
+            tabuada(n1);
+
+        
+        </script>
+
+
+
+    </body>
+</html>

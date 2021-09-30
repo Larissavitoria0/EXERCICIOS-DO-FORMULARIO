@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
  <head>
-   <title>Exercicio 1</title>
+   <title>Exercício 1</title>
    Digite um número: <input id="numero" type="numero"> 
    <button onclick="carregar()">Carregar</button>
 

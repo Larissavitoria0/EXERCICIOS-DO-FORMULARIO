@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exercicio 15</title>
+</head>
+<body>
+
+    <script>
+
+var produto = Number (prompt ("Digite o valor do produto"));
+var parcela = Number (prompt ("Digite o valor de quantas vezes deseja parcelar"));
+var div
+
+if (parcela <=15){
+    div = produto/parcela;
+    document.write("valor de cada parcela:",div)
+}
+
+
+
+    </script>
+
+</body>
+
+</html>
